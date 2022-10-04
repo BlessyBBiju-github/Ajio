@@ -1,0 +1,133 @@
+*{
+margin:0;
+padding:0;
+}
+.head{
+  border-top:3px solid black;
+  border-bottom:1px solid gray;
+  padding-bottom:5px;
+ /* position:fixed;
+  z-index:1;*/
+}
+.head1{
+  color:#2c4152;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-left:1047px;
+  margin-top:9px;
+ }
+.div1{
+   margin:5px;
+  color:#2c4152;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.div2{
+    background-color:black;
+    color:white;
+   padding:12px;
+    font-size:x-small;
+    font-weight:normal;
+}
+.head2{
+  display:flex;
+}
+.Ajio  img{
+width:170px;
+}
+.Ajio1{
+   display:flex;
+  margin-left:433px;
+  margin-top:27px;
+font-weight:lighter;
+color:grey;
+}
+ .Ajio1 p{
+   padding-right:7px;
+}
+.Ajio1 :hover{
+  color:black;
+  font-weight:bold;
+ font-size:15px;
+  
+}
+.Ajio2 input{
+    width:204px;
+    margin-top:8px;
+    margin-left:15px;
+    border:transparent;
+   background-color:#f5f3c6;
+}
+.Ajio2{
+   border:1px solid black;
+   background-color:#f5f3c6;
+   border-radius:21px;
+   margin-top:20px;
+   margin-left:18px;
+}
+.head3 img{
+      margin-top:16px;
+      margin-left:15px;
+}
+.slide  img{
+   width:1350px;
+}
+.slide1{
+  margin-top:70px;
+  width:400px;
+}
+.slide1 img{
+ width:1350px;
+}
+
+.slide3  img{
+   width:1350px;
+}
+.slide4  img{
+  width:1350px;
+}
+.slide5 img{
+  width:1350px;
+}
+
+.footer-col {
+    width: 20%;
+    padding: 0 30px;
+}
+
+.footer-col h4 {
+    font-size: 13px;
+    color: rgb(255,255,255);
+    margin-bottom: 35px;
+    font-weight: bolder;
+    position: relative;
+    margin-left: 38px;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer-col ul li a {
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(255,255,255);
+    display: block;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    padding-left: 8px;
+}
