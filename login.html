@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login Page</title>
     
 </head>
 <body>
@@ -14,17 +14,14 @@
         <div id="button-div">
             <button id="sign-button">&times;</button>
         </div>
-        
-        <div>
         <div>
             <h1 id="welcome">Welcome to AJIO</h1>
-            
         </div>
         <div id="main-logo-div">
             <div><p id="join">Join / Sign In using</p></div>
             <div id="logo-m">
                 <div id="logo">
-                    <img id="facebook-img" src="Assets/facebook.png" alt="">
+                    <img id="facebook-img" src="Assets/fb.png" alt="">
                     <p>FACEBOOK</p>
                 </div>
                 <div id="logo2">
@@ -45,27 +42,7 @@
             <p>By Signing In, I agree to</p>
             <p id="last-p">Terms and Conditions.</p>
         </div>
-   
-    </div>
+</div>
 </div>
 </body>
 </html>
-
-<script>
-    function cont(){
-
-        let arr = JSON.parse(localStorage.getItem("num_local"))||[] ;
-
-        let obj = {
-            number : document.getElementById("search").value,
-        };
-
-        arr.push(obj);
-        
-        localStorage.setItem("num_local", JSON.stringify(arr));
-
-
-
-        window.location.href="signup.html";
-    }
-</script>
