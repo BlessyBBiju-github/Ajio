@@ -69,28 +69,11 @@ color:grey;
       margin-top:16px;
       margin-left:15px;
 }
-.slide  img{
-   width:1350px;
+.main{
+  overflow-x: hidden;
 }
-.slide1{
-  margin-top:70px;
-  width:400px;
-}
-.slide1 img{
- width:1350px;
-}
-
-.slide3  img{
-   width:1350px;
-}
-.slide4  img{
+.pic img{
   width:1350px;
-}
-.slide5 img{
-  width:1350px;
-}
-.slide6 img{
-   width: 1330px;
 }
 .div4 img{
     margin:9px 220px 1px 78px;
