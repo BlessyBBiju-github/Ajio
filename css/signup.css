@@ -1,3 +1,6 @@
+body{
+background-image:url("../Assets/bgimage1.png");
+}
 #sign-div{
     margin: auto;
     height: 620px;
@@ -30,12 +33,13 @@
 #main-logo-div{
     height: 100px;
     width: 100%;
-    gap: 10px;
+    gap: 15px;
 }
 #main-info{
     width: 290px;
     height: 85px;
     font-family: sans-serif;
+    padding:5px;
 }
 #continue-btn{
     border: transparent;
@@ -45,6 +49,7 @@
     background-color: rgb(213,162,73);
     cursor: pointer;
     margin-top: 40px;
+    padding:5px;
 }
 
 #button-div{
@@ -76,6 +81,7 @@
 }
 #para{
     font-size: 11px;
+
 }
 #back-btn{
     color: black;
@@ -84,6 +90,9 @@
 }
 #p{
     font-size: 17px;
+}
+.edit {
+    margin-left:75px;
 }
 
 
