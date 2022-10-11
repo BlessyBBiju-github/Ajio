@@ -36,31 +36,31 @@ margin-left: 38px;
 }
 
 .footer-col h4::before {
-content: '';
-position: absolute;
-left: 0;
-bottom: -10px;
-height: 2px;
-box-sizing: border-box;
-width: 50px;
-}
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: 10px;
+   height: 2px;
+   box-sizing: border-box;
+   width: 50px;
+ }
 
 ul {
-list-style-type: none;
+  list-style-type: none;
 }
 
 .footer-col ul li a {
-font-size: 11px;
-text-decoration: none;
-font-weight: 300;
-color: rgb(255,255,255);
-display: block;
-margin-bottom: 15px;
-transition: all 0.3s ease;
+    font-size: 11px;
+   text-decoration: none;
+   font-weight: 300;
+   color: rgb(255,255,255);
+    display: block;
+    margin-bottom: 15px;
+   transition: all 0.3s ease;
 }
 
 .footer-col ul li a:hover {
-padding-left: 8px;
+  padding-left: 8px;
 }
 
 
@@ -89,12 +89,16 @@ button :hover{
     background-color: #D5A249;
 }
 .pictures span{
-  color:#D5A249;
-  }
-  .pictures{
+     color:#D5A249;
+     font-size:12px;
+}
+.pictures{
     margin:20px 10px 30px 250px ;
-  }
-  .Reliance img{
+
+}
+.Reliance img{
     width: 1200px;
-   
-  }
+ }
+.head3{
+   margin-left:115px;
+}
