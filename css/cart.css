@@ -133,29 +133,96 @@ color:#0b5c73;
 .Size img{
    width:14px;
 }
-
+div {
+ padding:3px;  
+}
+.right{
+   margin-left:2px;
+}
+.heading{
+   margin-top:5px;
+   padding:5px;
+   font-size:medium;
+}
 .rightdiv1{
-  width:167px;
+  width:280px;
   border:1px solid grey;
   margin-bottom:272px;
   background-color:whitesmoke;
-  border-color:#e1d6dd6;
+  border-color: #bcc4c5;
+  
 
 }
 .order1{
-   font-size:small;
+   font-size:15px;
    font-weight:normal;
+   margin-left: 5px;
+   
 }
 .order2{
-  margin-left:5px;
+  margin:0px 0px 0px 130px;
+  
+}
+.order11{
+   font-size:15px;
+   font-weight:normal;
+   margin-left: 5px;
+  
+}
+.order12{
+   color:#f5e2ae;
+   margin:0px 0px 0px 110px;
+   
+
+}
+.order13{
+   font-size:15px;
+   font-weight:normal;
+   margin-left: 5px;
+    
+}
+.order14{
+   color:#0b5c73;
+   
+}
+.order15{
+   color:#bcc4c5;
+   font-size:15px;
+   font-weight:normal;
+   margin-left: 5px;
+    
+}
+.order16{
+   color:#f5e2ae;
+   margin:0px 0px 0px 110px;
+   
+}
+.order17{
+   text-decoration: line-through;
+}
+.order18{
+   color:black;
+   font-size:15px;
+   font-weight:normal;
+   margin-left: 5px;
+  
+}
+.order19{
+   font-weight:bold;
+   color:#1d1c1a;
+   margin:0px 0px 0px 110px;
+   
 }
 #proceed-btn{
     border: transparent;
     height: 40px;
-    width: 167px;
+    width: 280px;
     color: white;
     background-color: rgb(213,162,73);
     cursor: pointer;
 }
-
+.rightBootom{
+   border:1px dashed black;
+   box-sizing:border-box;
+}
 
