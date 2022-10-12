@@ -1,104 +1,161 @@
-
-
-
-
-/* FOOTER Design */
-.footer {
-text-transform: uppercase;
-background-color: rgb(44, 65, 82);
-box-sizing: border-box;
-padding: 70px 70px;
-line-height: 1.5;
-font-family: 'Poppins', sans-serif;
-border-top: gray;
-text-align: justify;
-margin-top: 5%;
-
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.row {
-display: flex;
-flex-wrap: wrap;
+.head {
+	border-top: 3px solid black;
+	border-bottom: 1px solid gray;
+	padding-bottom: 5px;
+	z-index: 1;
 }
 
-.footer-col {
-width: 20%;
-padding: 0 30px;
+.head1 {
+	color: #2c4152;
+	font-size: 14px;
+	text-transform: capitalize;
+	margin-left: 900px;
+	margin-top: 10px;
 }
 
-.footer-col h4 {
-font-size: 13px;
-color: rgb(255,255,255);
-margin-bottom: 35px;
-font-weight: bolder;
-position: relative;
-margin-left: 38px;
+.Account {
+	color: black;
 }
 
-.footer-col h4::before {
-   content: '';
-   position: absolute;
-   left: 0;
-   bottom: 10px;
-   height: 2px;
-   box-sizing: border-box;
-   width: 50px;
+.div1 {
+	margin: 5px;
+	color: #2c4152;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.div2 {
+	background-color: black;
+	color: white;
+	padding: 12px;
+	font-size: x-small;
+	font-weight: normal;
+}
+
+.head2 {
+	display: flex;
+}
+
+.Icici img {
+	padding: 1px;
+	width: 1068px;
+	margin-left: 100px;
+}
+
+.Ajio img {
+	width: 170px;
+}
+
+
+.head3 img {
+	margin-top: 16px;
+	margin-left: 15px;
+}
+.main{
+   display:flex;
+  }
+
+
+.div12 span{
+	display:flex;
+        margin:37px 0px 0px 49px;
+}
+
+.div12 span {
+	font-weight:bold;
+}
+.Bag2{
+   color:#c9bd95;
+}
+.Wishlist img{
+    width:10px;
+    color:#0b5c73;
+}
+.Wishlist p{
+    margin-left:669px;
+    color:#0b5c73;
+     }
+.Wishlist :hover{ 
+    color:black;
+}
+.cart{
+   box-sizing:border-box;
+    width:724px;
+    border:1px solid grey;
+    margin:6px 22px 0px 47px;
+    border-color:#d5dadb;
  }
-
-ul {
-  list-style-type: none;
+.cartimg{
+   display:flex;
+}
+.cartimg img{
+   width:117px;
+}
+.Size img{
+   width:14px;
+}
+.Size{
+  margin:20px 0px 0px 120px;
+}
+.spanright1{
+   color:grey;
+}
+.spanright2{
+  color:#f0b159;
+}
+.spanright3{
+   margin-left:96px;
+  text-decoration:line-through;
+  color:#f0b159;
+}
+.spanright4{
+    margin-top:51px;
+color:#0b5c73;
+}
+.cart1{
+    box-sizing:border-box;
+    width:728px;
+    border:1px solid grey;
+   margin:6px 22px 0px 47px;
+    border-color:#d5dadb;
+ }
+.cartimg1{
+   display:flex;
+}
+.cartimg1 img{
+   width:117px;
+}
+.Size img{
+   width:14px;
 }
 
-.footer-col ul li a {
-    font-size: 11px;
-   text-decoration: none;
-   font-weight: 300;
-   color: rgb(255,255,255);
-    display: block;
-    margin-bottom: 15px;
-   transition: all 0.3s ease;
-}
+.rightdiv1{
+  width:167px;
+  border:1px solid grey;
+  margin-bottom:272px;
+  background-color:whitesmoke;
+  border-color:#e1d6dd6;
 
-.footer-col ul li a:hover {
-  padding-left: 8px;
 }
-
-
-.details1{
-    margin:4px 0px 5px 550px ;
-    
+.order1{
+   font-size:small;
+   font-weight:normal;
 }
-.details2{
-    margin:4px 0px 5px 400px ; 
+.order2{
+  margin-left:5px;
 }
-button{
-    margin-left:500px ;
-}
-
-#continue-btn{
+#proceed-btn{
     border: transparent;
     height: 40px;
-    width: 190px;
+    width: 167px;
     color: white;
     background-color: rgb(213,162,73);
     cursor: pointer;
-    margin-top: 25px;
-    
 }
-button :hover{
-    background-color: #D5A249;
-}
-.pictures span{
-     color:#D5A249;
-     font-size:12px;
-}
-.pictures{
-    margin:20px 10px 30px 250px ;
 
-}
-.Reliance img{
-    width: 1200px;
- }
-.head3{
-   margin-left:115px;
-}
+
