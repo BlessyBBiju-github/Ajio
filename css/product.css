@@ -107,15 +107,34 @@ color:grey;
 }
 .p2{
  margin-left:61px;
+ color:#b19975;
+ font-size: 20px;
+}
+.p3{
+  color:#333;
+  font-size: 18px;
+  margin-bottom: 10px; 
+
 }
 .p4{
 margin:6px 0px 0px 75px;
+color:black;
+ font-size: 24px;
 }
 .p5{
  margin-left:13px;
+ font-weight: 100;
+  color:#b19975;
+  font-size: 10px;
 }
 .p6{
- margin-left:8px;
+text-decoration: line-through;
+ font-weight: 100;
+color:#b19975;
+font-size: 10px;
+}
+.p7{
+  
 }
 .hr-lines:before{
   content:" ";

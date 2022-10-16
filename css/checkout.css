@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.head {
+	border-top: 3px solid black;
+	border-bottom: 1px solid gray;
+	padding-bottom: 5px;
+	z-index: 1;
+}
+
+.head1 {
+	color: #2c4152;
+	font-size: 14px;
+	text-transform: capitalize;
+	margin-left: 900px;
+	margin-top: 10px;
+}
+
+.Account {
+	color: black;
+}
+
+.div1 {
+	margin: 5px;
+	color: #2c4152;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.div2 {
+	background-color: black;
+	color: white;
+	padding: 12px;
+	font-size: x-small;
+	font-weight: normal;
+}
+
+.head2 {
+	display: flex;
+}
+.Ajio img {
+	width: 170px;
+}
+
+
+.head3 img {
+	margin-top: 16px;
+	margin-left: 15px;
+}
+.content img{
+    width: 34px;
+    margin:10px 0px 0px 151px; 
+}
+.contents{
+    margin:35px 0px 0px 165px;  
+}
+
+ .heading{
+    margin-top:5px;
+    padding:5px;
+    font-size:medium;
+ }
+ .rightdiv1{
+   width:280px;
+   border:1px solid grey;
+   margin:0px 0px 0px 591px;
+   background-color:whitesmoke;
+   border-color: #bcc4c5;
+}
+ .order1{
+    font-size:15px;
+    font-weight:normal;
+    margin-left: 5px;
+    
+ }
+ .order2{
+   margin:0px 0px 0px 130px;
+   
+ }
+ .order11{
+    font-size:15px;
+    font-weight:normal;
+    margin-left: 5px;
+   
+ }
+ .order12{
+    color:#f5e2ae;
+    margin:0px 0px 0px 110px;
+    
+ 
+ }
+ .order13{
+    font-size:15px;
+    font-weight:normal;
+    margin-left: 5px;
+     
+ }
+ .order14{
+    color:#0b5c73;
+    
+ }
+ .order15{
+    color:#bcc4c5;
+    font-size:15px;
+    font-weight:normal;
+    margin-left: 5px;
+     
+ }
+ .order16{
+    color:#f5e2ae;
+    margin:0px 0px 0px 110px;
+    
+ }
+ .order17{
+    text-decoration: line-through;
+ }
+ .order18{
+    color:black;
+    font-size:15px;
+    font-weight:normal;
+    margin-left: 5px;
+   
+ }
+ .order19{
+    font-weight:bold;
+    color:#1d1c1a;
+    margin:0px 0px 0px 110px;
+    
+ }
+ #proceed-btn{
+     border: transparent;
+     height: 40px;
+     width: 280px;
+     color: white;
+     background-color: rgb(213,162,73);
+     cursor: pointer;
+ }
